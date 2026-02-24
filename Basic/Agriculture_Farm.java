@@ -9,9 +9,9 @@ public class Agriculture_Farm {
         int extraYield=sc.nextInt();
         int damagedCrops=sc.nextInt();
 
-        int Yield = (yieldPerAcre*acres) + extraYield-damagedCrops;
+        int total = (yieldPerAcre*acres) + extraYield-damagedCrops;
 
-        System.out.println("Marketable Yield = "+Yield);
+        System.out.println("Marketable Yield = "+total);
         sc.close();
     }
     
