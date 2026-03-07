@@ -6,20 +6,9 @@ public class Problem18 {
         Scanner sc = new Scanner(System.in);
         int days = sc.nextInt();
         int periods = sc.nextInt();
-        String day = "";
+        String []day ={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
+
         for(int i=0;i<days;i++){
-            if(i==0)
-                day="Monday";
-            else if(i==1)
-                day="Tuesday";
-            else if(i==2)
-                day="Wednesday";
-            else if(i==3)
-                day="Thursday";
-            else if(i==4)
-                day="Friday";
-            else if(i==5)
-                day="Friday";
             if(i==0){
                 System.out.println("\nClass Time Table:");
                 System.out.print("Day ");
@@ -28,7 +17,7 @@ public class Problem18 {
                 }
                 System.out.println();
             }
-            System.out.print(day+" ");
+            System.out.print(day[i]+" ");
             for(int k=0;k<periods;k++){
                 String hour = sc.next();
                 System.out.print(hour+" ");
