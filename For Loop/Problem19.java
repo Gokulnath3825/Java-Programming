@@ -32,7 +32,7 @@ public class Problem19 {
                 expired++;
                 remaining=0;
             }
-            else if(remaining>0 && remaining<=3){
+            else if(remaining > 0 && remaining <= 3){
                 status="Expiring Soon";
                 expiringSoon++;
             }
