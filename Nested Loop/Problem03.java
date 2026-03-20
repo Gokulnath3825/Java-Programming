@@ -6,7 +6,7 @@ public class Problem03 {
         int n = sc.nextInt();
         String ch = sc.next();
 
-        for(int i=1;i<=n;i++){
+        for(int i = 1;i<=n;i++){
             if(ch.equals("star")){
                 for(int j=1;j<=i;j++){
                     System.out.print("*");
