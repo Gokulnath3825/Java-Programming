@@ -7,7 +7,7 @@ public class Problem01 {
         int column = sc.nextInt();
 
         for(int i=1;i<=row;i++){
-            if(i==1){
+            if(i == 1){
                 for(int l=1;l<=row;l++){
                     System.out.print(l+" ");
                 }
