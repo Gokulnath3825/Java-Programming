@@ -12,7 +12,7 @@ public class Problem25 {
             risk[i]=sc.nextInt();
             total+=risk[i];
         }
-        double avg = (double)total/n;
+        double avg = (double)total / n;
         double avg_2 = avg*2;
         int max = risk[0];
         int maxStore =1;
@@ -24,7 +24,7 @@ public class Problem25 {
                 max=risk[i];
                 maxStore=i+1;
             }
-            if(risk[i]<min){
+            if(risk[i] < min){
                 min=risk[i];
                 minStore=i+1;
             }
