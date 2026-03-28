@@ -11,7 +11,7 @@ public class Book_Publishing {
         int commission=sc.nextInt();
         int marketing=sc.nextInt();
 
-        int Profit =(copies*cost)+editing+design-commission-marketing;
+        int Profit = (copies * cost)+editing+design-commission-marketing;
 
 
         System.out.println("Publishing Profit = "+Profit);
