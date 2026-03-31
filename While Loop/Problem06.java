@@ -11,8 +11,8 @@ public class Problem06 {
             int withdrawal = sc.nextInt();
             System.out.println("\nEnter withdrawal amount: "+withdrawal);
             
-            amount = balance - withdrawal;
-            if(withdrawal<=100){
+            amount = balance-withdrawal;
+            if(withdrawal <= 100){
                 System.out.println("Invalid amount! Try again.");
             }
             else if(amount<0){
