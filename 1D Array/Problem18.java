@@ -17,7 +17,7 @@ public class Problem18 {
         int max = quantity[0];
         int maxStore = 1;
         int count = 0;
-        for(int i=0;i<n;i++){
+        for(int i= 0; i<n; i++){
             if(quantity[i]>max){
                 max=quantity[i];
                 maxStore=i+1;
