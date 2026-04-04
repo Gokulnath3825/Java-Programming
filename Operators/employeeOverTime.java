@@ -7,8 +7,8 @@ public class employeeOverTime {
         int hours=sc.nextInt();
         int attendance=sc.nextInt();
 
-        if(hours>40 && attendance>90){
-            System.out.println("Eligible");
+        if(hours > 40 &&  attendance > 90){
+            System.out.println("Eligible ");
         }
         else{
             System.out.println("Not Eligible");
