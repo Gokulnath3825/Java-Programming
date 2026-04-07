@@ -15,9 +15,9 @@ public class Problem12 {
         }
 
         if(nn == rev){
-            System.out.println(nn+" is a palindrome");
+            System.out.println(nn + " is a palindrome");
         }else{
-            System.out.println(nn+" is not a palindrome");
+            System.out.println(nn + " is not a palindrome");
 
         }
     }
