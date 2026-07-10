@@ -13,7 +13,7 @@ class Problem07 {
         int maxStore = 0;
         int maxStr = 0;
         for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+            for (int j = 0; j<cols; j++) {
                 arr[i][j] = sc.nextInt();
                 System.out.print(arr[i][j]+" ");
                 total+=arr[i][j];
