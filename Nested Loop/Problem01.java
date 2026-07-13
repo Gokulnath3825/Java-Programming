@@ -11,7 +11,9 @@ public class Problem01 {
                 for(int l=1;l<=row;l++){
                     System.out.print(l+" ");
                 }
+                
                 System.out.println();
+                
             }
             for(int k=0;k<1;k++){
                 System.out.print(i+" ");
