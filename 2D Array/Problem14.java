@@ -34,15 +34,16 @@ public class Problem14 {
             System.out.println();
 
         }
-        System.out.println("\nRotated Matrix (90 deg clockwise):");
+        System.out.println("Rotated Matrix (90 deg clockwise):");
+
         for(int i=0;i<n;i++) {
+
             for(int j=0;j<n;j++) {
                 System.out.print(rotated[i][j] + " ");
 
             }
             System.out.println();
         }
-
 
         sc.close();
     }
