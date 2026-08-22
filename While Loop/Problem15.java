@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 public class Problem15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,10 +11,16 @@ public class Problem15 {
                 break;
             }
             count++;
+
             if(n%2==0){
+
                 n=n/2;
-            }else{
+
+            }
+
+else{
                 n=3*n+1;
+
             }
         }while(n>=1);
         System.out.println("\nSteps: "+count);
