@@ -3,28 +3,39 @@ import java.util.Scanner;
 public class Problem08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int n = sc.nextInt();
 
+
         double originalTotal = 0;
+
         double finalTotal = 0;
+
         int items = 0;
 
-        for(int i = 0; i < n; i++) {
-            String productName = sc.next();
-            double price = sc.nextDouble();
-            int quantity = sc.nextInt();
+        for(int i = 0; i < n; i++){
 
+            String productName = sc.next();
+
+            double price = sc.nextDouble();
+
+            int quantity = sc.nextInt();
             int dis = 0;
+
             items += quantity;
 
             if(quantity > 1 && quantity < 5){
                 dis = 10;
+
             }
-            else if(quantity >= 5 && quantity < 10){
+            else if(quantity >= 5 &&
+ quantity < 10)
+{
                 dis = 15;
             }
             else if(quantity >= 10){
                 dis = 20;
+
             }
 
             double subTotal = (price * quantity) * (1 - dis / 100.0);
