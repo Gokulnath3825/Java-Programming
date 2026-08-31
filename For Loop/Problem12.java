@@ -10,17 +10,26 @@ public class Problem12 {
         for (int i = 1; i <= N; i++) {
 
             String vehicleType = sc.next();
+
             double hoursParked = sc.nextDouble();
 
             double hourlyRate = 0;
+
             double dailyCap = 0;
 
+
             if (vehicleType.equals("Car")) {
+
                 hourlyRate = 3.0;
+
                 dailyCap = 30.0;
+
             } else if (vehicleType.equals("Motorcycle")) {
+
                 hourlyRate = 2.0;
+
                 dailyCap = 20.0;
+
             } else if (vehicleType.equals("Truck")) {
                 hourlyRate = 5.0;
                 dailyCap = 60.0;
