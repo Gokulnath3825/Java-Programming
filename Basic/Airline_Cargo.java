@@ -12,10 +12,6 @@ public class Airline_Cargo {
         int fuel=sc.nextInt();
 
         int  Revenue =(weight*rate)+priority+insurance-handling-fuel;
-
-
-
-
         System.out.println("Cargo Revenue = "+Revenue);
         sc.close();
         
