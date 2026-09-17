@@ -3,16 +3,10 @@ import java.util.Scanner;
 public class Problem01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         String correctpassword = sc.nextLine();
-
         int maxAttempt = 3;
-
         int attempt = 0;
-
         boolean login =false;
-
-
         while(attempt<maxAttempt && !login){
 
             System.out.println("\nEnter password:");
